@@ -11,6 +11,7 @@ function getFox() {
 }
 
 function updateFoxImgSrc(src) {
+  console.log(src)
   let img = document.querySelector("img");
   
   img.src = src;
