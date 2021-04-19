@@ -7,7 +7,7 @@ function setup() {
 function getFox() {
   fetch("https://randomfox.ca/floof/")
     .then(response => response.json())
-    .then(data => updateFoxImgSrc(data.file));
+    .then(data => updateFoxImgSrc(data.image));
 }
 
 function updateFoxImgSrc(src) {
